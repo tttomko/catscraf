@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Brygada+1918:ital,wght@1,500&family=Courgette&family=Dancing+Script&family=Tiro+Devanagari+Hindi:ital@1&family=Tiro+Devanagari+Marathi&family=Tiro+Devanagari+Sanskrit&family=Tiro+Telugu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tiro+Devanagari+Hindi:ital@1&family=Tiro+Devanagari+Marathi&family=Tiro+Devanagari+Sanskrit&family=Tiro+Telugu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@1&family=Tiro+Devanagari+Marathi&family=Tiro+Devanagari+Sanskrit&family=Tiro+Telugu&display=swap');
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/273898267_375766984610934_9068198209472984866_n.gif);
+    background-size: cover;
+ 
+}
+header .undes{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+header .undes .big{
+width: 80%;
+height: 100px;
+margin-left: 5%;
+}
+header .undes .big .container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content:flex-end;
+   
+    margin-left:15% ;
+}
+header .undes .big .container ul{
+    width: 80%;
+    height: 90%;
+    display: flex;
+   justify-content: center;
+  align-items: center;
+    list-style: none;
+    margin: auto;
+}
+header .undes .big .container ul li{
+    width: 20%;
+    height: 100%;
+    margin: auto;
+}
+
+header .undes .big .container ul li p{
+    font-size: 17px;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40%;
+    border-bottom: 1px solid rgba(255,255,255, 0.3);
+    letter-spacing: 2px;
+    font-family: 'Tiro Devanagari Hindi', serif;
+  
+}
+header .undes .big .container ul li .li1{
+    width: 60%;
+    height: 60%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+header .undes .big .container ul li h5{
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+ letter-spacing: 5px;
+    margin-top: 10%;
+}
+
+
+
+header .undes .big2{
+width: 10%;
+height: 100px;
+}
+header .undes .big2 i{
+    font-size: 17px;
+    color: #fff;
+    display: flex;
+    margin-top: 50%;
+    justify-content: center;
+    align-items: center;
+}
+header .undes .big2:hover i{
+    color: greenyellow;
+}
+header .undes .big .container ul li:hover p{
+    color: yellowgreen;
+}
+header .undes .big .container ul li:hover h5{
+    color: yellowgreen;
+}
+
+header .text{
+    margin-top: 25vh;
+    width: 100%;
+    height:20%;
+ 
+}
+header .text .text1{
+    width:86%;
+    height: 75%;
+display: inline-block;
+text-align: center;
+
+ margin-left: 7%;
+}
+header .text .text2{
+    width: 100%;
+    height: 25%;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .text .text1 p{
+    font-size: 5rem;
+    color: #fff;
+font-style: italic;
+letter-spacing: 5px;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    font-family: 'Brygada 1918', serif;
+    display: inline-block;
+}
+
+header .text .text2 p{
+    font-size: 3rem;
+    color:  #fff;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 5vh;
+    display: inline-block;
+}
+
+
+
+ main{
+     width: 100%;
+    
+ }
+ main .child1{
+     margin-top: 50px;
+     width: 100%;
+     height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ main .child1 .text{
+     width: 35%;
+     height: 100%;
+     display: inline-block;
+     
+ }
+ main .child1 .text  h1{
+    font-size: 10px;
+    color: #1d1a19;
+    text-align: center;
+ letter-spacing: 5px;
+    font-weight: 400;
+    font-family: Playfair Display SC,serif;
+}
+main .child1 .text h2{
+    color: #1d1a19;
+    border-bottom: 1px solid #49423b;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-style: italic;
+    font-size:3.5rem;
+    text-align: center;
+}
+main .child1 .text p{
+    color:#1d1a19 ;
+    margin-top: 35px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-style:normal;
+}
+ main .child2{
+     width: 100%;
+     height: 415px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+ main .child2 .container {
+     width: 85%;
+     height:100% ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+ }
+
+ main .child2 .container .img{
+     width: 100%;
+     height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ main .child2 .container .img img{
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+ }
+main .child2 .container .img .a4{
+    position: absolute;
+    width:75% ;
+    height: 75%;
+    background-color: rgba(0,0,0,0.4);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+display: none;
+}
+main .child2 .container .img:hover .a4{
+    display: flex;
+}
+
+
+
+
+
+ main{
+     width: 100%;
+     
+ }
+main .child-1{
+     width: 30%;
+     height: 20%;
+     margin: auto;
+}
+main .child-1 .text2{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+main .child-1 .text2 h4{
+    font-size: 10px;
+    color: #1d1a19;
+    text-align: center;
+ letter-spacing: 5px;
+    font-weight: 400;
+    font-family: Playfair Display SC,serif;
+}
+main .child-1 .text2 h3{
+    color: #1d1a19;
+    border-bottom: 1px solid #49423b;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-style: italic;
+    font-size:3.5rem;
+    text-align: center;
+}
+main .child-1 .text2 h2{
+    color:#1d1a19 ;
+    margin-top: 35px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-style:normal;
+    font-weight: 100;
+}
+main .child-2{
+    width: 100%;
+    height: 415px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .child-2 .container2{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .child-2 .container2 .img2{
+width: 100%;
+height: 100%;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+main .child-2 .container2 .img2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+main .child-2 .container2 .img2 .a3{
+    position: absolute;
+    width:75% ;
+    height: 75%;
+    background-color: rgba(0,0,0,0.4);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+display: none;
+}
+main .child-2 .container2 .img2:hover .a3{
+display: flex;
+}
+
+
+
+
+main .big{
+  width: 40%;
+  height: 20%;
+  margin: auto;
+}
+main .big .text3{
+    width: 100%;
+    height: 100%;
+display: inline-block;
+} 
+main .big .text3 h5{
+    font-size: 10px;
+    color: #1d1a19;
+    text-align: center;
+ letter-spacing: 5px;
+    font-weight: 400;
+    font-family: Playfair Display SC,serif;
+}
+main .big .text3 h1{
+    color: #1d1a19;
+    border-bottom: 1px solid #49423b;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-style: italic;
+    font-size:3.5rem;
+    text-align: center;
+}
+main .big .text3 h2{
+    color:#1d1a19 ;
+    margin-top: 35px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-style:normal;
+    font-weight: 100;
+}
+main .big2{
+    width: 100%;
+    height: 70%;
+   margin: auto;
+   
+}
+main .big2 .container3{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .big2 .container3 .img3{
+    width: 100%;
+    height: 100%;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+main .big2 .container3 .img3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+main .big2 .container3 .img3 .a2{
+    position: absolute;
+    width:75%;
+    height: 75%;
+    background-color: rgba(0,0,0,0.4);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+display: none;
+}
+main .big2 .container3 .img3:hover .a2{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+main .big3{
+    width: 45%;
+    height: 25%;
+    margin: auto;
+  
+}
+main .big3 .text3{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+main .big3 .text3 h5{
+    font-size: 10px;
+    color: #1d1a19;
+    text-align: center;
+ letter-spacing: 5px;
+    font-weight: 400;
+    font-family: Playfair Display SC,serif;
+}
+main .big3 .text3 h1{
+    color: #1d1a19;
+    border-bottom: 1px solid #49423b;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-style: italic;
+    font-size:4rem;
+    text-align: center;
+}
+main .big3 .text3 h3{
+    margin-top: 10px;
+    color: #1d1a19;
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+main .big3 .text3 h2{
+    color:#1d1a19 ;
+    margin-top: 35px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-style:normal;
+    font-weight: 100;
+}
+main .big4{
+    width: 100%;
+    
+    margin-top: 100px;
+}
+main .big4 .container4{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+main .big4 .container4 .img4{
+    width: 100%;
+    height: 415px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .big4 .container4 .img4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    text-align: center;
+}
+main .big4 .container4 .img4 .a1{
+    position: absolute;
+    width:75% ;
+    height: 70%;
+    background-color: rgba(0,0,0,0.4);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+display: none;
+
+}
+main .big4 .container4 .img4:hover .a1{
+    display: flex;
+}
+
+main .big4 .container4 .img4 .a1 p{
+    width: 100%;
+text-align: center;
+border-bottom:1px solid #fff;
+font-size:2.5rem ;
+font-family:  Playfair Display SC,serif;
+
+}
+main .big4 .container4 .img4 .a1 .b1{
+    display: block;
+    width: 80%;
+ 
+}
+
+.divider{
+    width: 100%;
+}
+.item{
+    background-color:#f4efde ;
+    width: 100%;
+    height: 120vh;
+
+}
+@media screen and (max-width: 1000px) {
+    main .child2 .container{
+        display: inline-block;
+    }
+}
